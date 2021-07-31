@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: #fff;
+    color: #3a3a3a;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.285;
+}
+div{
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.header{
+    width: 100%;
+    padding: 25px 0;
+}
+.logo{
+    width: 990px;
+    margin: auto;
+}
+.line{
+    border-top: 1px solid red;
+    margin: 0;
+}
+.club{
+    height: 92px;
+}
+.club .logo{
+    margin: auto;
+}
+.club .logo img{
+    margin: 43px 0 14px;
+    
+}
+.border{
+    float: left;
+    width: 100%;
+    height: 35px;
+    background: #d83230;
+    color: #fff;
+    margin-bottom: 4px;
+    position: relative;
+}
+.border .max-width{
+    border-left: 4px solid #fff;
+    display: table;
+    margin: auto;
+    width: 1005px;
+    max-width: 1050px;
+}
+.border .inner{
+    float: left;
+    width: 100%;
+    height: 35px;
+}
+.BTS, .teacher{
+    margin: 0px auto;
+    width: 1020px;
+}
+.BTS .inner{
+    display: block;
+    padding-left: 11%;
+    padding-top: 55px;
+}
+.BTS .text{
+    padding: 5px;
+    width: 100%;
+    height: 22px;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #3a3a3a;
+}
+.teacher{
+    height: 375px;
+}
+.teacher .left{
+    float: left;
+    margin-left: 20px;
+    width: 55%;
+}
+.teacher .left img{
+    display: block;
+    padding-left: 25%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.teacher .left span{
+    padding-top: 20px;
+    padding-left: 25%;
+    height: 90px;
+    font-family: Arial;
+    font-size: 26.3px;
+    line-height: 1.27;
+    letter-spacing: -0.31px;
+    text-align: center;
+    color: #ec5e34;
+}
+.teacher .left .button{
+    margin-left: 22%;
+    padding-top: 30px;
+}
+.button .orange{
+    background-color: #F07F24;
+    margin-top: 0px;
+    font-size: 23px;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 14px 140px 13px 140px
+}
+.teacher .right{
+    float: left;
+    margin-left: 40px;
+}
+.blueline{
+    background: #156068;
+    height: 20px;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+.discount{
+    background: #1f858f;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+.discount .discinner{
+    text-align: center;
+    display: inline-flex;
+    padding: 30px 30px 30px 17%;
+}
+.discount .discinner .left{
+    width: 60%;
+    text-align: center;
+}
+.discount .discinner .left h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.discount .discinner .left h6{
+    font-size: 11px;
+    font-family: Arial,sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+.discount .left button{
+    text-align: center;
+}
+.discount .discinner .right{
+    width: 50%;
+    text-align: center
+}
+.discinner .right img{
+    display: block;
+}
+.discinner .right .red{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
